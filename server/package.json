@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
     "compile": "npx tsc -w",
     "start": "node ./dist/server.js",
     "dev": "nodemon ./src/server.ts"
